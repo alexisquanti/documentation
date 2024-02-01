@@ -1,18 +1,3 @@
----
-title: "Awin"
-description: "One page summary of how to start a new Doks project."
-lead: "One page summary of how to start a new Doks project."
-date: 2020-11-16T13:59:39+01:00
-lastmod: 2020-11-16T13:59:39+01:00
-draft: false
-images: []
-menu:
-  docs:
-    parent: "prologue"
-weight: 110
-toc: true
----
-
 Follow our setup guide to connect Awin to QUANTI:
 
 * * * * *
@@ -47,5 +32,8 @@ Setup instructions
 3.  Enter your advertiser IDs you found in Step 2. You can add all of your ids seperated by commas.
 4.  Click Save & Test. Quanti: will take it from here and sync your Awin data.
 
+### N.B
+
+Publishers generate performance through advertising media broadcasting but not only. They also have the possibility of creating their own affiliate links which are not referenced in the creatives on the Awin platform. The awin_table_by_creative_import table gives visibility only to “official” creatives. To have a more global visibility on the performance of an account (advertising media + affiliate links), it is essential to use the awin_stats_by_publisher_import table.
 
 ### [Tables](https://dbdiagram.io/d/[Awin-Connector]-Data-Model-6511611dffbf5169f06f6e48)
